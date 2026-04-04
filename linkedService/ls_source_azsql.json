@@ -1,0 +1,17 @@
+{
+	"name": "ls_source_azsql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "pocdatabricksserver.database.windows.net",
+			"database": "pocdatabricksdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Anil",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERERjgzQjdCLUJCM0MtNDNFMy1CNDlBLTExRDZEMjg4MTkxMF83MWNiN2JhMy1hYzVjLTQzNjYtOTBlOS1mY2U1MDVkYmJjMmEiDQp9"
+		}
+	}
+}
